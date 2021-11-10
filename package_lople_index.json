@@ -1,42 +1,62 @@
 {
     "packages": [
         {
-            "name": "Luple",
-            "maintainer": "Luple",
-            "websiteURL": "https://www.luple.co.kr",
-            "platforms": [{
-                "name": "Luple",
-                "architecture": "nrf52",
-                "version": "0.2.0",
-                "category": "Luple",
-                "url": "https://github.com/underflow101/nRF52810-luple-arduino/blob/master/nrfluple-0.2.0.tar.bz2?raw=true",
-                "archiveFileName": "nrfluple-0.2.0.tar.bz2",
-                "checksum": "SHA-256:215b3a11b360477cbbbe1e6b91fc807e564d8b5de6576837300ac989fd81ed96",
-                "size": "16344344",
-                "help": {
-                    "online": "https://www.luple.co.kr"
-                },
-                "boards": [
-                    {
-                    "name": "Luple nRF52810"
-                    }
-                ],
-                "toolsDependencies": [
-                    {
-                    "packager": "Luple",
-                    "name": "arm-none-eabi-gcc",
-                    "version": "9-2019q4"
-                    },
-                    {
-                    "packager": "Luple",
-                    "name": "nrfjprog",
-                    "version": "9.4.0"
-                    },
-                    {
-                    "packager": "Luple",
-                    "name": "CMSIS",
-                    "version": "5.7.0"
-                    }
+            "name": "Lople",
+            "architecture": "nrf52",
+            "version": "1.1.0",
+            "category": "Luple",
+            "url": "https://github.com/underflow101/nrf52810-private/blob/master/nrfluple-1.1.0.tar.bz2?raw=true",
+            "archiveFileName": "nrfluple-1.1.0.tar.bz2",
+            "checksum": "SHA-256:953618bbe721b6ff6a3208b1892bb830c148da3441e4ad1d7b986039ecd56605",
+            "size": "18822394",
+            "help": {
+              "online": "https://forums.adafruit.com"
+            },
+            "boards": [
+              {
+                "name": "Luple nRF52810"
+              },
+              {
+                "name": "Adafruit Feather nRF52832"
+              },
+              {
+                "name": "Adafruit Feather nRF52840 Express"
+              },
+              {
+                "name": "Adafruit Feather nRF52840 Sense"
+              },
+              {
+                "name": "Adafruit Circuit Playground Bluefruit"
+              },
+              {
+                "name": "Adafruit Metro nRF52840 Express"
+              },
+              {
+                "name": "Adafruit ItsyBitsy nRF52840"
+              },
+              {
+                "name": "Adafruit CLUE"
+              },
+              {
+                "name": "Adafruit LED Glasses Driver nRF52840"
+              }
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "adafruit",
+                "name": "arm-none-eabi-gcc",
+                "version": "9-2019q4"
+              },
+              {
+                "packager": "adafruit",
+                "name": "nrfjprog",
+                "version": "9.4.0"
+              },
+              {
+                "packager": "adafruit",
+                "name": "CMSIS",
+                "version": "5.7.0"
+              }
                 ]
             }],
             "tools":[
