@@ -10,7 +10,7 @@
             "checksum": "SHA-256:953618bbe721b6ff6a3208b1892bb830c148da3441e4ad1d7b986039ecd56605",
             "size": "18822394",
             "help": {
-              "online": "https://forums.adafruit.com"
+              "online": "https://www.luple.co.kr"
             },
             "boards": [
               {
@@ -57,8 +57,8 @@
                 "name": "CMSIS",
                 "version": "5.7.0"
               }
-                ]
-            }],
+            ]
+        }],
             "tools":[
                 {
                     "name": "CMSIS",
@@ -196,6 +196,6 @@
                     ],
                     "name": "nrfjprog",
                     "version": "9.4.0"
-                }
-            ]
-        }
+                  }
+                ]
+            }
